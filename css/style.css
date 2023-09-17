@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.forma label{
+
+  font-size: 30px;
+  
+}
+
+.forma input{
+
+    font-size: 20px;
+    
+}
+.forma input[type=text], select {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+  }
+  .forma input[type=text]:hover {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1b50ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .forma input[type=password], select {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .forma input[type=email], select {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .forma input[type=email]:hover {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1b50ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .forma input[type=password]:hover {
+ 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1b50ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+button{
+    margin-top: 10px;
+    background-color:  #d66a6c;
+  
+    font-size: 30px;
+    border-radius: 10px;
+    color:#ffffff;
+}
+button:hover{
+    background-color: #c93c3e;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.error {
+
+    background: #be3a3a;
+   
+    color: #ffffff;
+   
+    padding: 10px;
+   
+    width: 100%;
+   
+    border-radius: 5px;
+   
+    margin: 20px auto;
+    font-weight: bold;
+   
+   }
+.ok{
+    background: #53ce1a;
+   
+    color: #000000;
+   
+    padding: 10px;
+   
+    width: 40%;
+   
+    border-radius: 5px;
+   
+    margin: 20px auto;
+    font-weight: bold;
+}
+
